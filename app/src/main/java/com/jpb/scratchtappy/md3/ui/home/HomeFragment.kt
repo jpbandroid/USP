@@ -9,8 +9,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.jpb.scratchtappy.md3.R
-import import com.jpb.scratchtappy.md3.databinding.FragmentHomeBinding
+import com.jpb.scratchtappy.usp.R
+import com.jpb.scratchtappy.usp.databinding.FragmentHomeBinding
 import android.widget.Button
 
 
@@ -39,9 +39,9 @@ class HomeFragment : Fragment() {
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
-        val root2 = inflater.inflate(com.jpb.scratchtappy.md3.R.layout.fragment_home, null) as ViewGroup
-        val but = root.findViewById<View>(com.jpb.scratchtappy.md3.R.id.button) as Button
-        val text = root.findViewById<View>(com.jpb.scratchtappy.md3.R.id.text3) as TextView
+        val root2 = inflater.inflate(com.jpb.scratchtappy.usp.R.layout.fragment_home, null) as ViewGroup
+        val but = root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button) as Button
+        val text = root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.text3) as TextView
         but.setOnClickListener {
             tap++
             text.setText(tap.toString())

@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import com.jpb.scratchtappy.usp.ui.main.SectionsPagerAdapter
-import import com.jpb.scratchtappy.md3.databinding.ActivityMdcomponentBinding
+import com.jpb.scratchtappy.usp.databinding.ActivityMdcomponentBinding
 
 @Deprecated(message = "Replaced with mdcomp.kt since ST md3 1.5", level = DeprecationLevel.WARNING)
 class MDComponent : AppCompatActivity() {

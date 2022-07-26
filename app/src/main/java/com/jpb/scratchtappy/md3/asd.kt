@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import com.jpb.scratchtappy.usp.ui.main.SectionsPagerAdapter
-import import com.jpb.scratchtappy.md3.databinding.ActivityAsdBinding
+import com.jpb.scratchtappy.usp.databinding.ActivityAsdBinding
 
 class asd : AppCompatActivity() {
 

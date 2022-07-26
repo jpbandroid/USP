@@ -12,7 +12,7 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.color.DynamicColors
-import import com.jpb.scratchtappy.md3.databinding.ActivityNavBinding
+import com.jpb.scratchtappy.usp.databinding.ActivityNavBinding
 
 class NavActivity : AppCompatActivity() {
 

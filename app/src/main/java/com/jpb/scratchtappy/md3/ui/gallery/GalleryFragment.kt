@@ -8,8 +8,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.jpb.scratchtappy.md3.R
-import import com.jpb.scratchtappy.md3.databinding.FragmentGalleryBinding
+import com.jpb.scratchtappy.usp.R
+import com.jpb.scratchtappy.usp.databinding.FragmentGalleryBinding
 
 class GalleryFragment : Fragment() {
 

@@ -14,7 +14,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.preference.PreferenceManager
 import com.google.android.material.color.DynamicColors
-import import com.jpb.scratchtappy.md3.databinding.ActivityMainBinding
+import com.jpb.scratchtappy.usp.databinding.ActivityMainBinding
 import com.jpb.scratchtappy.usp.utils.IntroActivity
 import com.jpb.scratchtappy.usp.utils.UpdateIntroActivity
 
