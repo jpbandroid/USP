@@ -33,7 +33,7 @@ import android.view.animation.AccelerateInterpolator
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.view.animation.AnticipateOvershootInterpolator
-import com.jpb.scratchtappy.md3.R
+import com.jpb.scratchtappy.usp.R
 import android.graphics.drawable.BitmapDrawable
 import android.service.dreams.DreamService
 import android.os.Bundle

@@ -25,7 +25,7 @@ import android.view.View.MeasureSpec
 import android.content.BroadcastReceiver
 import android.text.format.DateUtils
 import android.content.res.TypedArray
-import com.jpb.scratchtappy.md3.R
+import com.jpb.scratchtappy.usp.R
 import androidx.core.content.ContextCompat
 import android.app.Activity
 import com.jpb.scratchtappy.usp.PlatLogoActivity.SettableAnalogClock

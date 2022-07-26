@@ -11,9 +11,9 @@ import com.cuneytayyildiz.onboarder.OnboarderActivity
 import com.cuneytayyildiz.onboarder.model.*
 import com.cuneytayyildiz.onboarder.utils.OnboarderPageChangeListener
 import com.cuneytayyildiz.onboarder.utils.color
-import com.jpb.scratchtappy.md3.BuildConfig
+import com.jpb.scratchtappy.usp.BuildConfig
 import com.jpb.scratchtappy.usp.MainActivity
-import com.jpb.scratchtappy.md3.R
+import com.jpb.scratchtappy.usp.R
 
 
 class UpdateIntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
