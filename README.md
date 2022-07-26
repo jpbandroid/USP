@@ -1,2 +1,2 @@
-# ScratchTappy md3
-ScratchTappy, but smaller and more modern!
+# USP
+ScratchTappy md3 and ScratchTappy merged into one app
