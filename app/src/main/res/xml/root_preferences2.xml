@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+        <Preference
+            android:id="@+id/aboutpref"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:key="aboutpref"
+            android:title="About ScratchTappy md3"
+            app:key="aboutpref"
+            app:summary="Find out more about this app..."
+            app:title="About ScratchTappy md3" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+        <Preference
+            android:id="@+id/preference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Version"
+            app:icon="@mipmap/ic_launcher"
+            app:key="stmd3"
+            app:summary="ST md3 2.0 Enhanced"
+            app:title="Version" />
+        <Preference
+            android:id="@+id/preference2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@mipmap/ic_time_round"
+            android:key="clock"
+            android:title="Build date"
+            app:icon="@mipmap/ic_time_round"
+            app:key="clock"
+            app:summary="Monday 31 January 2022"
+            app:title="Build date" />
+        <Preference
+            android:id="@+id/preference3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_round_star_rate_24"
+            android:key="rate"
+            android:title="Rate ST!"
+            app:icon="@drawable/ic_round_star_rate_24"
+            app:key="rate"
+            app:summary="Please rate ScratchTappy to give me feedback on what to do next!"
+            app:title="Rate ST!" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

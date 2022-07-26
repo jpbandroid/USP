@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="24dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="200dp"
+        >
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <TextView
+                    style="@style/Widget.MaterialComponents.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ScratchTappy md3 is the Material Design 3 version of ST (the ST codebase is completely rebuilt!)" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_round_perm_device_information_24"
+                    android:focusable="true"
+                    android:text="Device Info" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#32DE84"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_round_perm_device_information_24"
+                    android:focusable="true"
+                    android:text="APK Info"
+                    app:icon="@drawable/ic_baseline_android_24" />
+
+                <Button
+                    android:id="@+id/button35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/design_default_color_primary"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_material_design"
+                    android:focusable="true"
+                    android:text="MD Components"
+                    app:icon="@drawable/ic_baseline_android_24" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Changelog"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <TextView
+                    style="@style/Widget.MaterialComponents.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/changelogtext" />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Devs"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <Button
+                    android:id="@+id/button4"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/jpb"
+                    android:text="@string/jpb_dev"
+                    android:textAlignment="viewStart" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Social Media Links"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/jpb"
+                    android:text="@string/jpb_channel"
+                    android:textAlignment="viewStart"
+                    app:icon="@drawable/ic_youtube"
+                    app:iconSize="48dp"
+                    app:iconTint="@color/jpb" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Libraries used"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <Button
+                    android:id="@+id/button39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_round_read_more_24"
+                    android:focusable="true"
+                    android:text="See all"
+                    app:icon="@drawable/ic_round_read_more_24" />
+
+                <Button
+                    android:id="@+id/button5"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AndroidX Jetpack Libraries\nGoogle/AOSP"
+                    android:textAlignment="viewStart"
+                    app:icon="@drawable/ic_baseline_android_24"
+                    app:iconSize="48dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/materialversion"
+                    android:textAlignment="viewStart"
+                    app:icon="@drawable/ic_material_design"
+                    app:iconSize="48dp" />
+
+                <Button
+                    android:id="@+id/button7"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JUnit\nversion 4.13.2\nunknown authors"
+                    android:textAlignment="viewStart"
+                    app:iconSize="48dp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="drakeet About library\nversion 2.5.0\ndrakeet"
+                    android:textAlignment="viewStart"
+                    app:iconSize="48dp" />
+
+                <Button
+                    android:id="@+id/button9"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="drakeet MultiType\nversion 4.3.0\ndrakeet"
+                    android:textAlignment="viewStart"
+                    app:iconSize="48dp" />
+
+                <Button
+                    android:id="@+id/button10"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Afollestad Material Dialogs\nversion 3.3.0\nafollestad"
+                    android:textAlignment="viewStart"
+                    app:iconSize="48dp" />
+
+                <Button
+                    android:id="@+id/button11"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Glide\nversion 4.12.0\nbumptech"
+                    android:textAlignment="viewStart"
+                    app:iconSize="48dp" />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip4"
+            style="@style/Widget.MaterialComponents.Chip.Action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MD2 Chip"
+            app:chipIcon="@drawable/ic_material_design" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MD3 Chip"
+            app:chipIcon="@drawable/ic_material_design" />
+    </LinearLayout>
+</ScrollView>

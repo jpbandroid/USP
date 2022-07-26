@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:icon="@drawable/jpb"
+        android:summary="Developer of ST"
+        android:title="jpb"
+        app:icon="@drawable/jpb"
+        app:summary="Developer of ST"
+        app:title="jpb"></Preference>
+</PreferenceScreen>

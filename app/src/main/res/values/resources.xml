@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s_egg_name" translatable="false">ClockEgg</string>
+
+    <declare-styleable name="AnalogClock">
+        <attr name="dial" format="reference" />
+        <attr name="hand_hour" format="reference" />
+        <attr name="hand_minute" format="reference" />
+    </declare-styleable>
+    <!-- Name of the K-release easter egg: a display case for all our tastiest desserts. [CHAR LIMIT=30] -->
+    <string name="dessert_case">Dessert Case</string>
+
+    <!-- used by DessertCase -->
+    <dimen name="dessert_case_cell_size">192dp</dimen>
+</resources>
