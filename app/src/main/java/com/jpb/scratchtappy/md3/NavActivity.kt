@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3
+package com.jpb.scratchtappy.usp
 
 import android.os.Bundle
 import android.view.Menu
@@ -12,7 +12,7 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.color.DynamicColors
-import com.jpb.scratchtappy.md3.databinding.ActivityNavBinding
+import import com.jpb.scratchtappy.md3.databinding.ActivityNavBinding
 
 class NavActivity : AppCompatActivity() {
 

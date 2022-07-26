@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3.utils
+package com.jpb.scratchtappy.usp.utils
 
 import android.content.Intent
 import android.graphics.Color
@@ -12,7 +12,7 @@ import com.cuneytayyildiz.onboarder.model.*
 import com.cuneytayyildiz.onboarder.utils.OnboarderPageChangeListener
 import com.cuneytayyildiz.onboarder.utils.color
 import com.jpb.scratchtappy.md3.BuildConfig
-import com.jpb.scratchtappy.md3.MainActivity
+import com.jpb.scratchtappy.usp.MainActivity
 import com.jpb.scratchtappy.md3.R
 
 
@@ -50,7 +50,7 @@ class UpdateIntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
                 }
 
                 title {
-                    text = "Thanks for installing ScratchTappy md3 v" + BuildConfig.VERSION_NAME + "!"
+                    text = "Thanks for installing Unified ScratchTappy Platform v" + BuildConfig.VERSION_NAME + "!"
                     textColor = color(R.color.white)
                 }
 

@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3
+package com.jpb.scratchtappy.usp
 
 import android.content.Intent
 import android.os.Bundle

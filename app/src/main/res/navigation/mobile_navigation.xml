@@ -7,23 +7,23 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.jpb.scratchtappy.md3.ui.home.HomeFragment"
+        android:name="com.jpb.scratchtappy.usp.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.jpb.scratchtappy.md3.ui.dashboard.DashboardFragment"
+        android:name="com.jpb.scratchtappy.usp.ui.dashboard.DashboardFragment"
         android:label="Tappy+"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.jpb.scratchtappy.md3.ui.notifications.NotificationsFragment"
+        android:name="com.jpb.scratchtappy.usp.ui.notifications.NotificationsFragment"
         android:label="CatTappy"
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/navigation_notifications2"
-        android:name="com.jpb.scratchtappy.md3.SettingsFragment"
+        android:name="com.jpb.scratchtappy.usp.SettingsFragment"
         android:label="Settings" />
 </navigation>

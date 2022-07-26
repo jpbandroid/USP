@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3.ui.notifications
+package com.jpb.scratchtappy.usp.ui.notifications
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

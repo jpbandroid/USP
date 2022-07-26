@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jpb.scratchtappy.md3
+package com.jpb.scratchtappy.usp
 
-import com.jpb.scratchtappy.md3.getSystemColor
+import com.jpb.scratchtappy.usp.getSystemColor
 import kotlin.jvm.JvmOverloads
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.VectorDrawable
@@ -28,8 +28,8 @@ import android.content.res.TypedArray
 import com.jpb.scratchtappy.md3.R
 import androidx.core.content.ContextCompat
 import android.app.Activity
-import com.jpb.scratchtappy.md3.PlatLogoActivity.SettableAnalogClock
-import com.jpb.scratchtappy.md3.PlatLogoActivity.BubblesDrawable
+import com.jpb.scratchtappy.usp.PlatLogoActivity.SettableAnalogClock
+import com.jpb.scratchtappy.usp.PlatLogoActivity.BubblesDrawable
 import android.os.Bundle
 import android.widget.FrameLayout
 import android.util.DisplayMetrics
@@ -43,8 +43,8 @@ import android.content.Context
 import android.graphics.*
 import android.view.MotionEvent
 import android.view.HapticFeedbackConstants
-import com.jpb.scratchtappy.md3.PlatLogoActivity
-import com.jpb.scratchtappy.md3.PlatLogoActivity.Bubble
+import com.jpb.scratchtappy.usp.PlatLogoActivity
+import com.jpb.scratchtappy.usp.PlatLogoActivity.Bubble
 import android.text.format.Time
 import android.util.Log
 import android.view.View

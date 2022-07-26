@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.jpb.scratchtappy.md3.ui.home.HomeFragment"
+        android:name="com.jpb.scratchtappy.usp.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.jpb.scratchtappy.md3.ui.gallery.GalleryFragment"
+        android:name="com.jpb.scratchtappy.usp.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.jpb.scratchtappy.md3.ui.slideshow.SlideshowFragment"
+        android:name="com.jpb.scratchtappy.usp.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>

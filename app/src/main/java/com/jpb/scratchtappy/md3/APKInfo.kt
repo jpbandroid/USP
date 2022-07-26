@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3
+package com.jpb.scratchtappy.usp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +17,7 @@ class APKInfo : AppCompatActivity() {
         setContentView(R.layout.activity_apkinfo2)
         val ab: androidx.appcompat.app.ActionBar? = supportActionBar
         ab?.setTitle("APK Info")
-        ab?.setSubtitle("ScratchTappy md3 2.0 Enhanced")
+        ab?.setSubtitle("Unified ScratchTappy Platform 2.0 Enhanced")
         val chart = findViewById<PieChart>(R.id.chart)
         val entries: MutableList<PieEntry> = ArrayList()
         entries.add(PieEntry(54.5f, "classes.dex"))

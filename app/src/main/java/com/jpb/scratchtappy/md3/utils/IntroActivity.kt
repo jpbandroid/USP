@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3.utils
+package com.jpb.scratchtappy.usp.utils
 
 import android.content.Intent
 import android.graphics.Color
@@ -11,7 +11,7 @@ import com.cuneytayyildiz.onboarder.OnboarderActivity
 import com.cuneytayyildiz.onboarder.model.*
 import com.cuneytayyildiz.onboarder.utils.OnboarderPageChangeListener
 import com.cuneytayyildiz.onboarder.utils.color
-import com.jpb.scratchtappy.md3.MainActivity
+import com.jpb.scratchtappy.usp.MainActivity
 import com.jpb.scratchtappy.md3.R
 
 
@@ -72,7 +72,7 @@ class IntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
                 }
 
                 description {
-                    text = "ScratchTappy md3 is also optimized for TVs!\nIt has a TV-friendly makeup in the majority, but unfortunately, some more recent UI surfaces (like the easter eggs) are not fit for TVs!"
+                    text = "Unified ScratchTappy Platform is also optimized for TVs!\nIt has a TV-friendly makeup in the majority, but unfortunately, some more recent UI surfaces (like the easter eggs) are not fit for TVs!"
                     textColor = color(R.color.black)
                     multilineCentered = true
                 }

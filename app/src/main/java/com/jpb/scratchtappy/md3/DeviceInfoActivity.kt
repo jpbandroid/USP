@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3
+package com.jpb.scratchtappy.usp
 
 import android.annotation.TargetApi
 import androidx.appcompat.app.AppCompatActivity
@@ -18,7 +18,7 @@ import com.google.android.material.color.DynamicColors
 import com.jaredrummler.android.device.DeviceName
 import android.util.DisplayMetrics
 import java.text.DecimalFormat
-import com.jpb.scratchtappy.md3.utils.DiskUtils
+import com.jpb.scratchtappy.usp.utils.DiskUtils
 
 class DeviceInfoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -246,7 +246,7 @@ class DeviceInfoActivity : AppCompatActivity() {
         val storagefreetitle = findViewById<TextView>(R.id.textView52)
         storagefreetitle.text = "Free storage:\n" + DiskUtils.freeSpace(external = false).toString() + " MB"
     }
-    @Deprecated(message = "Deprecated since ST md3 2.0 Enhanced.", replaceWith = ReplaceWith(expression = "com.jpb.scratchtappy.md3.DiskUtils") , level = DeprecationLevel.WARNING)
+    @Deprecated(message = "Deprecated since ST md3 2.0 Enhanced.", replaceWith = ReplaceWith(expression = "com.jpb.scratchtappy.usp.DiskUtils") , level = DeprecationLevel.WARNING)
     fun getAvailableInternalMemorySize(): Long {
         val path = Environment.getDataDirectory()
         val stat = StatFs(path.path)

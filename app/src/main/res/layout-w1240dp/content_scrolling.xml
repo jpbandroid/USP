@@ -38,7 +38,7 @@
                     style="@style/Widget.MaterialComponents.TextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ScratchTappy md3 is the Material Design 3 version of ST (the ST codebase is completely rebuilt!)" />
+                    android:text="Unified ScratchTappy Platform is the Material Design 3 version of ST (the ST codebase is completely rebuilt!)" />
 
                 <Button
                     android:id="@+id/button12"

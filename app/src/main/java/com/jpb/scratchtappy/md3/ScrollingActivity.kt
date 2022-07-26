@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3
+package com.jpb.scratchtappy.usp
 
 import android.os.Bundle
 import android.view.View

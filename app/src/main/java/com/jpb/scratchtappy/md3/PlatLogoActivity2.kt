@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jpb.scratchtappy.md3
+package com.jpb.scratchtappy.usp
 
-import com.jpb.scratchtappy.md3.getLong
-import com.jpb.scratchtappy.md3.putLong
+import com.jpb.scratchtappy.usp.getLong
+import com.jpb.scratchtappy.usp.putLong
 import android.app.Activity
-import com.jpb.scratchtappy.md3.DessertCaseView
+import com.jpb.scratchtappy.usp.DessertCaseView
 import android.content.pm.PackageManager
 import android.content.ComponentName
-import com.jpb.scratchtappy.md3.DessertCaseDream
-import com.jpb.scratchtappy.md3.DessertCaseView.RescalingContainer
+import com.jpb.scratchtappy.usp.DessertCaseDream
+import com.jpb.scratchtappy.usp.DessertCaseView.RescalingContainer
 import kotlin.jvm.JvmOverloads
 import android.widget.FrameLayout
 import android.util.SparseArray
@@ -43,11 +43,11 @@ import android.os.Bundle
 import android.util.DisplayMetrics
 import android.graphics.Typeface
 import android.view.Gravity
-import com.jpb.scratchtappy.md3.PlatLogoActivity2
+import com.jpb.scratchtappy.usp.PlatLogoActivity2
 import android.widget.TextView
 import android.view.View.OnLongClickListener
 import android.content.Intent
-import com.jpb.scratchtappy.md3.DessertCase
+import com.jpb.scratchtappy.usp.DessertCase
 import android.content.ActivityNotFoundException
 import android.os.Handler
 import android.text.method.TransformationMethod
@@ -55,7 +55,7 @@ import android.util.Log
 import android.view.View
 import android.view.animation.DecelerateInterpolator
 import android.widget.ImageView
-import com.jpb.scratchtappy.md3.TransformationMethod2
+import com.jpb.scratchtappy.usp.TransformationMethod2
 
 class PlatLogoActivity2 : Activity() {
     var mContent: FrameLayout? = null

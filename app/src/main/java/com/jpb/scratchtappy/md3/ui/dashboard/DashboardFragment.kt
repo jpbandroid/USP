@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3.ui.dashboard
+package com.jpb.scratchtappy.usp.ui.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.jpb.scratchtappy.md3.R
-import com.jpb.scratchtappy.md3.databinding.FragmentDashboardBinding
+import import com.jpb.scratchtappy.md3.databinding.FragmentDashboardBinding
 
 class DashboardFragment : Fragment() {
     var tap = 0

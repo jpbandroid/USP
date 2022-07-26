@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3.ui.main
+package com.jpb.scratchtappy.usp.ui.main
 
 import android.content.Context
 import androidx.fragment.app.Fragment

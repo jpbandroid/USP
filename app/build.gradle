@@ -9,7 +9,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.jpb.scratchtappy.md3"
+        applicationId "com.jpb.scratchtappy.usp"
         minSdk 22
         targetSdk 32
         versionCode 2010

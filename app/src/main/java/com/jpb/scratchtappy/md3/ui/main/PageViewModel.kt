@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3.ui.main
+package com.jpb.scratchtappy.usp.ui.main
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

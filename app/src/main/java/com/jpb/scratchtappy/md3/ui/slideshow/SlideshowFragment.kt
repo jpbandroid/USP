@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.md3.ui.slideshow
+package com.jpb.scratchtappy.usp.ui.slideshow
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.jpb.scratchtappy.md3.R
-import com.jpb.scratchtappy.md3.databinding.FragmentSlideshowBinding
+import import com.jpb.scratchtappy.md3.databinding.FragmentSlideshowBinding
 
 class SlideshowFragment : Fragment() {
 

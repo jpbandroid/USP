@@ -38,7 +38,7 @@
             app:scrimAnimationDuration="50"
             app:scrimVisibleHeightTrigger="174dp"
             app:statusBarScrim="@android:color/transparent"
-            app:title="ScratchTappy md3"
+            app:title="Unified ScratchTappy Platform"
             app:titleCollapseMode="fade">
 
             <com.google.android.material.appbar.MaterialToolbar
