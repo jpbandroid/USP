@@ -21,7 +21,7 @@
             android:title="Version"
             app:icon="@mipmap/ic_launcher"
             app:key="stmd3"
-            app:summary="ST md3 2.0 Enhanced"
+            app:summary="USP 8.0 Preview"
             app:title="Version" />
         <Preference
             android:id="@+id/preference2"
@@ -32,7 +32,7 @@
             android:title="Build date"
             app:icon="@mipmap/ic_time_round"
             app:key="clock"
-            app:summary="Monday 31 January 2022"
+            app:summary="Tuesday 26 July 2022"
             app:title="Build date" />
         <Preference
             android:id="@+id/preference3"
