@@ -17,6 +17,8 @@ import android.os.StatFs
 import com.google.android.material.color.DynamicColors
 import com.jaredrummler.android.device.DeviceName
 import android.util.DisplayMetrics
+import android.widget.Toast
+import androidx.core.content.ContentProviderCompat.requireContext
 import java.text.DecimalFormat
 import com.jpb.scratchtappy.usp.utils.DiskUtils
 
@@ -30,6 +32,8 @@ class DeviceInfoActivity : AppCompatActivity() {
         ab?.setSubtitle(Build.MODEL)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_device_info)
+        var tap = 0
+        var tapee = 5
         val mi = ActivityManager.MemoryInfo()
         val activityManager = getSystemService(ACTIVITY_SERVICE) as ActivityManager
         activityManager.getMemoryInfo(mi)
@@ -85,7 +89,18 @@ class DeviceInfoActivity : AppCompatActivity() {
         val butdevice = findViewById<View>(R.id.button13) as Button
         butdevice.text = "Device Codename\n" + Build.DEVICE
         butdevice.setOnClickListener {
+            tap++
+            tapee--
+            if (tap == 5) {
+                startActivity(Intent(this, Ocquarium::class.java))
+            }
+            else {
+                val text = "Tap the button " + tapee + " more times, and a surprise will unlock!"
+                val duration = Toast.LENGTH_SHORT
 
+                val toast = Toast.makeText(this, text, duration)
+                toast.show()
+            }
         }
         val butdevice2 = findViewById<View>(R.id.button14) as Button
         butdevice2.text = "Device Serial Number\n" + Build.SERIAL

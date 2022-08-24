@@ -54,6 +54,12 @@
             android:label="@string/dessert_case"
             android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" />
         <activity
+            android:name=".Ocquarium"
+            android:exported="true"
+            android:icon="@mipmap/octopus"
+            android:label="Ocquarium"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" />
+        <activity
             android:name=".DessertCase"
             android:excludeFromRecents="true"
             android:exported="true"
