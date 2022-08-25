@@ -213,7 +213,7 @@
                     style="@style/Widget.Material3.Button.TextButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="drakeet About library\nversion 2.5.1\ndrakeet"
+                    android:text="drakeet About library\nversion 2.5.2\ndrakeet"
                     android:textAlignment="viewStart"
                     app:iconSize="48dp" />
 
@@ -240,7 +240,7 @@
                     style="@style/Widget.Material3.Button.TextButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Glide\nversion 4.12.0\nbumptech"
+                    android:text="Glide\nversion 4.13.2\nbumptech"
                     android:textAlignment="viewStart"
                     app:iconSize="48dp" />
 
