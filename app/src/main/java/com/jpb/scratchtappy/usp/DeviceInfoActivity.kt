@@ -167,10 +167,6 @@ class DeviceInfoActivity : AppCompatActivity() {
             {
                 deviceName2 = "Fire HD 8/8 Plus 10th gen (2020)"
             }
-            else if (Build.MODEL == "KFONWI")
-            {
-                deviceName2 = "Fire HD 8/8 Plus 10th gen (2020)"
-            }
             else if (Build.MODEL == "KFTRWI")
             {
                 deviceName2 = "Fire HD 10 11th gen (2021)"
@@ -178,6 +174,9 @@ class DeviceInfoActivity : AppCompatActivity() {
             else if (Build.MODEL == "KFTRPWI")
             {
                 deviceName2 = "Fire HD 10 Plus 11th gen (2021)"
+            }
+            else if (Build.MODEL == "KFQUWI") {
+                deviceName2 = "Fire 7 12th gen (2022)"
             }
             else if (Build.MODEL == "AFTB")
             {
