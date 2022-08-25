@@ -55,7 +55,7 @@ class UpdateIntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
                 }
 
                 description {
-                    text = "All the new features and changes in ST md3 " + BuildConfig.VERSION_NAME + "\n" + getString(R.string.changelog)
+                    text = "All the new features and changes in Unified ST Platform " + BuildConfig.VERSION_NAME + "\n" + getString(R.string.changelog)
                     textColor = color(R.color.white)
                     multilineCentered = true
                 }
@@ -68,7 +68,7 @@ class UpdateIntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
                 }
 
                 title {
-                    text = "Please install other updates to ST md3 to get more new features!"
+                    text = "Please install other updates to USP to get more new features!"
                     textColor = color(R.color.black)
                 }
 

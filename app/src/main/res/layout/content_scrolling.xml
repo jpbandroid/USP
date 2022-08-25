@@ -34,7 +34,7 @@
                     style="@style/Widget.MaterialComponents.TextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Unified ScratchTappy Platform is the Material Design 3 version of ST (the ST codebase is completely rebuilt!)" />
+                    android:text="Unified ScratchTappy Platform is a continuation of both ScratchTappy and ScratchTappy md3 based on the ScratchTappy md3 codebase" />
 
                 <Button
                     android:id="@+id/button12"
@@ -90,7 +90,7 @@
                     style="@style/Widget.MaterialComponents.TextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/changelogtext" />
+                    android:text="@string/newchangelogtext" />
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
