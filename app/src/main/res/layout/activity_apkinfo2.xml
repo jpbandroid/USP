@@ -64,7 +64,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:max="1000"
-                        android:progress="526"
+                        android:progress="524"
                         android:progressTint="#F44336" />
 
                     <ProgressBar
@@ -73,7 +73,7 @@
                         android:layout_width="1000dp"
                         android:layout_height="wrap_content"
                         android:max="1000"
-                        android:progress="172"
+                        android:progress="171"
                         android:progressTint="#E91E63" />
 
                     <ProgressBar
@@ -82,7 +82,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:max="1000"
-                        android:progress="164"
+                        android:progress="165"
                         android:progressTint="#9C27B0" />
 
                     <ProgressBar
@@ -109,7 +109,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:max="1000"
-                        android:progress="14"
+                        android:progress="15"
                         android:progressTint="#2196F3" />
 
                     <ProgressBar
@@ -152,7 +152,7 @@
                         android:id="@+id/textView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="3.2 MB    52.6% of APK size" />
+                        android:text="3.2 MB    52.4% of APK size" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -185,7 +185,7 @@
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="1.1 MB    17.2% of APK size" />
+                        android:text="1.1 MB    17.1% of APK size" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -218,7 +218,7 @@
                         android:id="@+id/textView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="1 MB    16.4% of APK size" />
+                        android:text="1 MB    16.5% of APK size" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -251,7 +251,7 @@
                         android:id="@+id/textView11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="510 KB    8.1% of APK size" />
+                        android:text="509.9 KB    8.1% of APK size" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -317,7 +317,7 @@
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="93.4 KB    1.4% of APK size" />
+                        android:text="95.8 KB    1.5% of APK size" />
                 </LinearLayout>
 
             </LinearLayout>
