@@ -32,7 +32,7 @@
             android:title="Build date"
             app:icon="@mipmap/ic_time_round"
             app:key="clock"
-            app:summary="Saturday 10 September 2022"
+            app:summary="Saturday 8 October 2022"
             app:title="Build date" />
         <Preference
             android:id="@+id/preference3"
