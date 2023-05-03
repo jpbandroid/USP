@@ -21,7 +21,7 @@
             android:title="Version"
             app:icon="@mipmap/ic_launcher"
             app:key="stmd3"
-            app:summary="USP 8.1 Preview"
+            app:summary="USP 9.0 Preview"
             app:title="Version" />
         <Preference
             android:id="@+id/preference2"
