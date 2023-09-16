@@ -8,6 +8,7 @@ import com.github.mikephil.charting.data.PieDataSet
 import com.github.mikephil.charting.data.PieEntry
 import com.github.mikephil.charting.utils.ColorTemplate
 import com.google.android.material.color.DynamicColors
+import com.jpb.scratchtappy.usp.BuildConfig
 
 
 class APKInfo : AppCompatActivity() {

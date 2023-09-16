@@ -17,6 +17,7 @@ import com.google.android.material.color.DynamicColors
 import com.jpb.scratchtappy.usp.databinding.ActivityMainBinding
 import com.jpb.scratchtappy.usp.utils.IntroActivity
 import com.jpb.scratchtappy.usp.utils.UpdateIntroActivity
+import com.jpb.scratchtappy.usp.BuildConfig
 
 
 class MainActivity : AppCompatActivity() {
