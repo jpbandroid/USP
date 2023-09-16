@@ -17,7 +17,7 @@ class APKInfo : AppCompatActivity() {
         setContentView(R.layout.activity_apkinfo2)
         val ab: androidx.appcompat.app.ActionBar? = supportActionBar
         ab?.setTitle("APK Info")
-        ab?.setSubtitle("Unified ScratchTappy Platform 8.1")
+        ab?.setSubtitle("Unified ScratchTappy Platform 9.0")
         val chart = findViewById<PieChart>(R.id.chart)
         val entries: MutableList<PieEntry> = ArrayList()
         entries.add(PieEntry(52.4f, "classes.dex"))
