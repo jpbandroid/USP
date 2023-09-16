@@ -29,7 +29,7 @@ class APKInfo : AppCompatActivity() {
         entries.add(PieEntry(0.1f, "kotlin"))
         val colors: ArrayList<Int> = ArrayList()
         for (c in ColorTemplate.MATERIAL_COLORS) colors.add(c)
-        val set = PieDataSet(entries, "Composition of the USP 9 app/apk")
+        val set = PieDataSet(entries, "Composition of the USP " + BuildConfig.VERSION_NAME + " app/apk")
         set.setColors(colors);
         val data = PieData(set)
         val legend = chart.legend
