@@ -98,6 +98,7 @@ class PlatLogoActivity : Activity() {
         setContentView(layout)
     }
 
+    @SuppressLint("ResourceAsColor")
     private fun createDrawable(): Drawable? {
         var color = -1
         try {
@@ -459,6 +460,8 @@ class PlatLogoActivity : Activity() {
 
         override fun setAlpha(alpha: Int) {}
         override fun setColorFilter(colorFilter: ColorFilter?) {}
+
+        @Deprecated("Deprecated in Java")
         override fun getOpacity(): Int {
             return PixelFormat.TRANSLUCENT
         }
