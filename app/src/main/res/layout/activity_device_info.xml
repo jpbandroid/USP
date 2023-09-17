@@ -63,14 +63,14 @@
                             android:id="@+id/textView36"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Unified ScratchTappy Platform version"
+                            android:text="ST10 version"
                             android:textSize="20sp" />
 
                         <TextView
                             android:id="@+id/textView35"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Unified ScratchTappy Platform" />
+                            android:text="ST10" />
 
                         <TextView
                             android:id="@+id/textView34"

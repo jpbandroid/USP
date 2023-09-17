@@ -6,10 +6,10 @@
             android:id="@+id/aboutpref"
             android:icon="@drawable/ic_baseline_info_24"
             android:key="aboutpref"
-            android:title="About Unified ScratchTappy Platform"
+            android:title="About ST10"
             app:key="aboutpref"
             app:summary="Find out more about this app..."
-            app:title="About Unified ScratchTappy Platform" />
+            app:title="About ST10" />
     </PreferenceCategory>
 
     <PreferenceCategory app:title="@string/sync_header">

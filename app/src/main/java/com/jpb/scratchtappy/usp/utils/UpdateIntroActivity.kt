@@ -50,7 +50,7 @@ class UpdateIntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
                 }
 
                 title {
-                    text = "Thanks for installing Unified ScratchTappy Platform v" + BuildConfig.VERSION_NAME + "!"
+                    text = "Thanks for installing ST10 v" + BuildConfig.VERSION_NAME + "!"
                     textColor = color(R.color.white)
                 }
 

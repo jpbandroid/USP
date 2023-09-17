@@ -72,7 +72,7 @@ class IntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
                 }
 
                 description {
-                    text = "Unified ScratchTappy Platform is also optimized for TVs!\nIt has a TV-friendly makeup in the majority, but unfortunately, some more recent UI surfaces (like the easter eggs) are not fit for TVs!"
+                    text = "ST10 is also optimized for TVs!\nIt has a TV-friendly makeup in the majority, but unfortunately, some more recent UI surfaces (like the easter eggs) are not fit for TVs!"
                     textColor = color(R.color.black)
                     multilineCentered = true
                 }

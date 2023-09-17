@@ -34,7 +34,7 @@
                     style="@style/Widget.MaterialComponents.TextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Unified ScratchTappy Platform is a continuation of both ScratchTappy and ScratchTappy md3 based on the ScratchTappy md3 codebase" />
+                    android:text="ST10 is a continuation of both ScratchTappy and ScratchTappy md3 based on the ScratchTappy md3 codebase" />
 
                 <Button
                     android:id="@+id/button12"
