@@ -1,6 +1,6 @@
 @file:JvmName("DrawableKt")
 
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
 import android.content.Context
 import androidx.core.content.ContextCompat

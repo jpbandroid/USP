@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,7 @@ import com.github.mikephil.charting.data.PieDataSet
 import com.github.mikephil.charting.data.PieEntry
 import com.github.mikephil.charting.utils.ColorTemplate
 import com.google.android.material.color.DynamicColors
-import com.jpb.scratchtappy.usp.BuildConfig
+import com.jpb.scratchtappy.BuildConfig
 
 
 class APKInfo : AppCompatActivity() {
@@ -30,7 +30,7 @@ class APKInfo : AppCompatActivity() {
         entries.add(PieEntry(0.1f, "kotlin"))
         val colors: ArrayList<Int> = ArrayList()
         for (c in ColorTemplate.MATERIAL_COLORS) colors.add(c)
-        val set = PieDataSet(entries, "Composition of the USP " + BuildConfig.VERSION_NAME + " app/apk")
+        val set = PieDataSet(entries, "Composition of the ST " + BuildConfig.VERSION_NAME + " app/apk")
         set.setColors(colors);
         val data = PieData(set)
         val legend = chart.legend

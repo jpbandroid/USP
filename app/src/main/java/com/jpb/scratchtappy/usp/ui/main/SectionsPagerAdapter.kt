@@ -1,10 +1,10 @@
-package com.jpb.scratchtappy.usp.ui.main
+package com.jpb.scratchtappy.ui.main
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.jpb.scratchtappy.usp.R
+import com.jpb.scratchtappy.R
 
 private val TAB_TITLES = arrayOf(
     R.string.tab_text_1,

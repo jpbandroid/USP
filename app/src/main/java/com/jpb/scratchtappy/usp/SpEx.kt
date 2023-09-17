@@ -1,7 +1,7 @@
 @file:JvmName("SpUtils")
 @file:JvmMultifileClass
 
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
 
 import android.content.Context

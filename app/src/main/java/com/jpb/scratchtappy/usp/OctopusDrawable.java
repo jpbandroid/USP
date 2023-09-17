@@ -12,7 +12,7 @@
  * permissions and limitations under the License.
  */
 
-package com.jpb.scratchtappy.usp;
+package com.jpb.scratchtappy;
 
 import android.animation.TimeAnimator;
 import android.content.Context;

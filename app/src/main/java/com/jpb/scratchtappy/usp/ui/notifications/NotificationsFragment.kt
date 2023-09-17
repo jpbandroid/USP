@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.usp.ui.notifications
+package com.jpb.scratchtappy.ui.notifications
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,8 +10,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.jpb.scratchtappy.usp.R
-import com.jpb.scratchtappy.usp.databinding.FragmentNotificationsBinding
+import com.jpb.scratchtappy.R
+import com.jpb.scratchtappy.databinding.FragmentNotificationsBinding
 
 class NotificationsFragment : Fragment() {
     var tap = 0
@@ -38,8 +38,8 @@ class NotificationsFragment : Fragment() {
         notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
-        val but = root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.floatingActionButton2) as FloatingActionButton
-        val text = root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.text7) as TextView
+        val but = root.findViewById<View>(com.jpb.scratchtappy.R.id.floatingActionButton2) as FloatingActionButton
+        val text = root.findViewById<View>(com.jpb.scratchtappy.R.id.text7) as TextView
         but.setOnClickListener {
             tap++
             text.setText(Integer.toString(tap))

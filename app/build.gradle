@@ -7,15 +7,15 @@ plugins {
 }
 
 android {
-    namespace "com.jpb.scratchtappy.usp"
+    namespace "com.jpb.scratchtappy"
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.jpb.scratchtappy.usp"
+        applicationId "com.jpb.scratchtappy"
         minSdk 22
         targetSdk 34
-        versionCode 9000
-        versionName "9.0"
+        versionCode 10000
+        versionName "10 alpha 1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

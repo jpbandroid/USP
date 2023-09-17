@@ -12,7 +12,7 @@
  * permissions and limitations under the License.
  */
 
-package com.jpb.scratchtappy.usp;
+package com.jpb.scratchtappy;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -22,7 +22,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.jpb.scratchtappy.usp.R;
+import com.jpb.scratchtappy.R;
 
 
 public class Ocquarium extends Activity {

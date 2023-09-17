@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
-import com.jpb.scratchtappy.usp.getLong
-import com.jpb.scratchtappy.usp.putLong
+import com.jpb.scratchtappy.getLong
+import com.jpb.scratchtappy.putLong
 import android.app.Activity
-import com.jpb.scratchtappy.usp.DessertCaseView
+import com.jpb.scratchtappy.DessertCaseView
 import android.content.pm.PackageManager
 import android.content.ComponentName
-import com.jpb.scratchtappy.usp.DessertCaseDream
-import com.jpb.scratchtappy.usp.DessertCaseView.RescalingContainer
+import com.jpb.scratchtappy.DessertCaseDream
+import com.jpb.scratchtappy.DessertCaseView.RescalingContainer
 import kotlin.jvm.JvmOverloads
 import android.widget.FrameLayout
 import android.util.SparseArray
@@ -33,7 +33,7 @@ import android.view.animation.AccelerateInterpolator
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.view.animation.AnticipateOvershootInterpolator
-import com.jpb.scratchtappy.usp.R
+import com.jpb.scratchtappy.R
 import android.graphics.Bitmap
 import android.graphics.ColorMatrixColorFilter
 import android.graphics.BitmapFactory
@@ -43,14 +43,14 @@ import android.os.Bundle
 import android.util.DisplayMetrics
 import android.graphics.Typeface
 import android.view.Gravity
-import com.jpb.scratchtappy.usp.PlatLogoActivity2
+import com.jpb.scratchtappy.PlatLogoActivity2
 import android.widget.TextView
 import android.view.View.OnLongClickListener
 import android.content.Intent
-import com.jpb.scratchtappy.usp.DessertCase
+import com.jpb.scratchtappy.DessertCase
 import android.content.ActivityNotFoundException
 import android.text.method.TransformationMethod
-import com.jpb.scratchtappy.usp.TransformationMethod2
+import com.jpb.scratchtappy.TransformationMethod2
 
 class DessertCaseDream : DreamService() {
     private var mView: DessertCaseView? = null

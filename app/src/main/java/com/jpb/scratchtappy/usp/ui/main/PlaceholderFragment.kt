@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.usp.ui.main
+package com.jpb.scratchtappy.ui.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.jpb.scratchtappy.usp.R
-import com.jpb.scratchtappy.usp.databinding.FragmentAsdBinding
+import com.jpb.scratchtappy.R
+import com.jpb.scratchtappy.databinding.FragmentAsdBinding
 
 /**
  * A placeholder fragment containing a simple view.

@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
 import org.junit.Test
 

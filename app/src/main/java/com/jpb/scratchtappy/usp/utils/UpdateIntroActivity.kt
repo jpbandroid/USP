@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.usp.utils
+package com.jpb.scratchtappy.utils
 
 import android.content.Intent
 import android.graphics.Color
@@ -11,9 +11,9 @@ import com.cuneytayyildiz.onboarder.OnboarderActivity
 import com.cuneytayyildiz.onboarder.model.*
 import com.cuneytayyildiz.onboarder.utils.OnboarderPageChangeListener
 import com.cuneytayyildiz.onboarder.utils.color
-import com.jpb.scratchtappy.usp.BuildConfig
-import com.jpb.scratchtappy.usp.MainActivity
-import com.jpb.scratchtappy.usp.R
+import com.jpb.scratchtappy.BuildConfig
+import com.jpb.scratchtappy.MainActivity
+import com.jpb.scratchtappy.R
 
 
 class UpdateIntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
@@ -68,7 +68,7 @@ class UpdateIntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
                 }
 
                 title {
-                    text = "Please install other updates to USP to get more new features!"
+                    text = "Please install other updates to ST to get more new features!"
                     textColor = color(R.color.black)
                 }
 

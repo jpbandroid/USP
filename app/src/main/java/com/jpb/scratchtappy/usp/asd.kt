@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -8,8 +8,8 @@ import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import com.jpb.scratchtappy.usp.ui.main.SectionsPagerAdapter
-import com.jpb.scratchtappy.usp.databinding.ActivityAsdBinding
+import com.jpb.scratchtappy.ui.main.SectionsPagerAdapter
+import com.jpb.scratchtappy.databinding.ActivityAsdBinding
 
 class asd : AppCompatActivity() {
 

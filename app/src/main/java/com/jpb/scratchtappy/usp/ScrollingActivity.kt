@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
 import android.os.Bundle
 import android.view.View
@@ -8,7 +8,7 @@ import com.google.android.material.appbar.CollapsingToolbarLayout
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
-import com.jpb.scratchtappy.usp.databinding.ActivityScrollingBinding
+import com.jpb.scratchtappy.databinding.ActivityScrollingBinding
 import androidx.browser.customtabs.CustomTabsIntent;
 import androidx.core.content.ContextCompat;
 import android.content.Intent
@@ -18,7 +18,7 @@ import android.net.Uri
 import com.afollestad.materialdialogs.MaterialDialog
 import com.google.android.gms.oss.licenses.OssLicensesMenuActivity
 import com.google.android.material.color.DynamicColors
-import com.jpb.scratchtappy.usp.R
+import com.jpb.scratchtappy.R
 
 
 
@@ -37,22 +37,22 @@ class ScrollingActivity : AppCompatActivity() {
 
         binding = ActivityScrollingBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val butdevice = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button12) as Button
+        val butdevice = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button12) as Button
         butdevice.setOnClickListener {
             val intent = Intent(applicationContext, DeviceInfoActivity::class.java)
             startActivity(intent)
         }
-        val butmd2 = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button35) as Button
+        val butmd2 = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button35) as Button
         butmd2.setOnClickListener {
             val intent = Intent(applicationContext, mdcomp::class.java)
             startActivity(intent)
         }
-        val butalllicence = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button39) as Button
+        val butalllicence = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button39) as Button
         butalllicence.setOnClickListener {
             val intent = Intent(applicationContext, OssLicensesMenuActivity::class.java)
             startActivity(intent)
         }
-        val butjpb = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button4) as Button
+        val butjpb = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button4) as Button
         butjpb.setOnClickListener {
             // initializing object for custom chrome tabs.
             // initializing object for custom chrome tabs.
@@ -77,7 +77,7 @@ class ScrollingActivity : AppCompatActivity() {
             // setting our toolbar color.
             openCustomTab(this@ScrollingActivity, customIntent.build(), Uri.parse(url))
         }
-        val butjpbyt = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button3) as Button
+        val butjpbyt = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button3) as Button
         butjpbyt.setOnClickListener {
             // initializing object for custom chrome tabs.
             // initializing object for custom chrome tabs.
@@ -102,7 +102,7 @@ class ScrollingActivity : AppCompatActivity() {
             // setting our toolbar color.
             openCustomTab(this@ScrollingActivity, customIntent.build(), Uri.parse(url2))
         }
-        val butandroid = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button5) as Button
+        val butandroid = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button5) as Button
         butandroid.setOnClickListener {
             MaterialDialog(this).show {
                 title(R.string.android)
@@ -110,7 +110,7 @@ class ScrollingActivity : AppCompatActivity() {
                 icon(R.drawable.ic_baseline_android_24)
             }
         }
-        val butmd = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button6) as Button
+        val butmd = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button6) as Button
         butmd.setOnClickListener {
             MaterialDialog(this).show {
                 title(R.string.md)
@@ -118,7 +118,7 @@ class ScrollingActivity : AppCompatActivity() {
                 icon(R.drawable.ic_material_design)
             }
         }
-        val butabout = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button8) as Button
+        val butabout = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button8) as Button
         butabout.setOnClickListener {
             MaterialDialog(this).show {
                 title(R.string.about)
@@ -126,7 +126,7 @@ class ScrollingActivity : AppCompatActivity() {
                 icon(R.drawable.ic_baseline_info_24)
             }
         }
-        val butmultitype = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button9) as Button
+        val butmultitype = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button9) as Button
         butmultitype.setOnClickListener {
             MaterialDialog(this).show {
                 title(R.string.multitype)
@@ -134,7 +134,7 @@ class ScrollingActivity : AppCompatActivity() {
                 icon(R.drawable.ic_baseline_info_24)
             }
         }
-        val butmddialogs = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button10) as Button
+        val butmddialogs = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button10) as Button
         butmddialogs.setOnClickListener {
             MaterialDialog(this).show {
                 title(R.string.afollestaddialog)
@@ -142,7 +142,7 @@ class ScrollingActivity : AppCompatActivity() {
                 icon(R.drawable.ic_baseline_info_24)
             }
         }
-        val butglide = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button11) as Button
+        val butglide = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button11) as Button
         butglide.setOnClickListener {
             MaterialDialog(this).show {
                 title(R.string.glide)
@@ -150,7 +150,7 @@ class ScrollingActivity : AppCompatActivity() {
                 icon(R.drawable.ic_baseline_info_24)
             }
         }
-        val butapk = binding.root.findViewById<View>(com.jpb.scratchtappy.usp.R.id.button2) as Button
+        val butapk = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button2) as Button
         butapk.setOnClickListener {
             val intent = Intent(applicationContext, APKInfo::class.java)
             startActivity(intent)

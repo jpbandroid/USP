@@ -1,4 +1,4 @@
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
 import android.content.Intent
 import android.content.SharedPreferences
@@ -14,10 +14,10 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.preference.PreferenceManager
 import com.google.android.material.color.DynamicColors
-import com.jpb.scratchtappy.usp.databinding.ActivityMainBinding
-import com.jpb.scratchtappy.usp.utils.IntroActivity
-import com.jpb.scratchtappy.usp.utils.UpdateIntroActivity
-import com.jpb.scratchtappy.usp.BuildConfig
+import com.jpb.scratchtappy.databinding.ActivityMainBinding
+import com.jpb.scratchtappy.utils.IntroActivity
+import com.jpb.scratchtappy.utils.UpdateIntroActivity
+import com.jpb.scratchtappy.BuildConfig
 
 
 class MainActivity : AppCompatActivity() {

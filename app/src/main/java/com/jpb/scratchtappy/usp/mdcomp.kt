@@ -1,8 +1,8 @@
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.jpb.scratchtappy.usp.MDComponent
+import com.jpb.scratchtappy.MDComponent
 
 class mdcomp : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

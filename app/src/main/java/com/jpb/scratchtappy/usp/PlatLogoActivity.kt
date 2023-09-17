@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
-import com.jpb.scratchtappy.usp.getSystemColor
+import com.jpb.scratchtappy.getSystemColor
 import kotlin.jvm.JvmOverloads
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.VectorDrawable
@@ -25,11 +25,11 @@ import android.view.View.MeasureSpec
 import android.content.BroadcastReceiver
 import android.text.format.DateUtils
 import android.content.res.TypedArray
-import com.jpb.scratchtappy.usp.R
+import com.jpb.scratchtappy.R
 import androidx.core.content.ContextCompat
 import android.app.Activity
-import com.jpb.scratchtappy.usp.PlatLogoActivity.SettableAnalogClock
-import com.jpb.scratchtappy.usp.PlatLogoActivity.BubblesDrawable
+import com.jpb.scratchtappy.PlatLogoActivity.SettableAnalogClock
+import com.jpb.scratchtappy.PlatLogoActivity.BubblesDrawable
 import android.os.Bundle
 import android.widget.FrameLayout
 import android.util.DisplayMetrics
@@ -43,8 +43,8 @@ import android.content.Context
 import android.graphics.*
 import android.view.MotionEvent
 import android.view.HapticFeedbackConstants
-import com.jpb.scratchtappy.usp.PlatLogoActivity
-import com.jpb.scratchtappy.usp.PlatLogoActivity.Bubble
+import com.jpb.scratchtappy.PlatLogoActivity
+import com.jpb.scratchtappy.PlatLogoActivity.Bubble
 import android.text.format.Time
 import android.util.Log
 import android.view.View

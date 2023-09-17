@@ -1,7 +1,7 @@
-package com.jpb.scratchtappy.usp.utils
+package com.jpb.scratchtappy.utils
 
 import android.os.StatFs
-import com.jpb.scratchtappy.usp.utils.DiskUtils
+import com.jpb.scratchtappy.utils.DiskUtils
 import android.os.Environment
 
 object DiskUtils {

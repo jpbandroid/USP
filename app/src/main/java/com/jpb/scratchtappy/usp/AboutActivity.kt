@@ -1,14 +1,14 @@
-package com.jpb.scratchtappy.usp
+package com.jpb.scratchtappy
 
 import android.os.Bundle
 import com.google.android.material.appbar.CollapsingToolbarLayout
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
-import com.jpb.scratchtappy.usp.R
-import com.jpb.scratchtappy.usp.databinding.ActivityAboutBinding
+import com.jpb.scratchtappy.R
+import com.jpb.scratchtappy.databinding.ActivityAboutBinding
 
-@Deprecated(message = "Old AboutActivity. Deprecated since dev builds of ST md3 1.1.", replaceWith = ReplaceWith("com.jpb.scratchtappy.usp.ScrollingActivity"))
+@Deprecated(message = "Old AboutActivity. Deprecated since dev builds of ST md3 1.1.", replaceWith = ReplaceWith("com.jpb.scratchtappy.ScrollingActivity"))
 class AboutActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAboutBinding
