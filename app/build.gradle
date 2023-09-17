@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-kapt'
     id 'org.jetbrains.kotlin.android'
 }
+apply plugin: 'com.mikepenz.aboutlibraries.plugin'
 
 android {
     namespace "com.jpb.scratchtappy"
@@ -32,10 +33,43 @@ android {
     kotlinOptions {
         jvmTarget = '11'
     }
+    composeOptions {
+        kotlinCompilerExtensionVersion compose_version
+    }
     buildFeatures {
         viewBinding true
     }
 }
+
+// It is possible to define a custom config path with custom mappings
+aboutLibraries {
+    // - if the automatic registered android tasks are disabled, a similar thing can be achieved manually
+    // - `./gradlew app:exportLibraryDefinitions -PexportPath=src/main/res/raw`
+    // - the resulting file can for example be added as part of the SCM
+    // registerAndroidTasks = false
+
+    // define the path configuration files are located in. E.g. additional libraries, licenses to add to the target .json
+    configPath = "config"
+    // allow to enable "offline mode", will disable any network check of the plugin (including [fetchRemoteLicense] or pulling spdx license texts)
+    offlineMode = false
+    // enable fetching of "remote" licenses. Uses the GitHub API
+    fetchRemoteLicense = true
+
+    // Full license text for license IDs mentioned here will be included, even if no detected dependency uses them.
+    // additionalLicenses = ["mit", "mpl_2_0"]
+
+    // Allows to exclude some fields from the generated meta data field.
+    // excludeFields = ["developers", "funding"]
+
+    // Define the strict mode, will fail if the project uses licenses not allowed
+    // - This will only automatically fail for Android projects which have `registerAndroidTasks` enabled
+    // For non Android projects, execute `exportLibraryDefinitions`
+    // Enable the duplication mode, allows to merge, or link dependencies which relate
+    duplicationMode = com.mikepenz.aboutlibraries.plugin.DuplicateMode.LINK
+    // Configure the duplication rule, to match "duplicates" with
+    duplicationRule = com.mikepenz.aboutlibraries.plugin.DuplicateRule.SIMPLE
+}
+
 
 dependencies {
 
@@ -64,4 +98,14 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.16.0'
     implementation 'androidx.browser:browser:1.6.0'
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    androidTestImplementation 'androidx.compose.ui:ui-test-junit4:1.6.0-alpha05'
+    debugImplementation 'androidx.compose.ui:ui-tooling:1.6.0-alpha05'
+    implementation 'com.google.accompanist:accompanist-insets-ui:0.27.0'
+    implementation 'com.google.accompanist:accompanist-systemuicontroller:0.27.0'
+    implementation 'com.mikepenz:aboutlibraries-core:10.5.1'
+    implementation 'com.mikepenz:aboutlibraries-compose:10.5.1'
+    implementation 'androidx.activity:activity-compose:1.8.0-beta01'
+    implementation 'androidx.compose.ui:ui:1.6.0-alpha05'
+    implementation "androidx.compose.material:material:1.5.1"
+    implementation 'androidx.compose.ui:ui-tooling-preview:1.6.0-alpha05'
 }

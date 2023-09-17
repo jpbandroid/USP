@@ -18,9 +18,7 @@ import android.net.Uri
 import com.afollestad.materialdialogs.MaterialDialog
 import com.google.android.material.color.DynamicColors
 import com.jpb.scratchtappy.R
-
-
-
+import com.jpb.scratchtappy.usp.oss.license.OSSLicense
 
 
 class ScrollingActivity : AppCompatActivity() {
@@ -49,7 +47,7 @@ class ScrollingActivity : AppCompatActivity() {
         val butalllicence = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button39) as Button
         butalllicence.setOnClickListener {
             //using MainActivity as placeholder here
-            val intent = Intent(applicationContext, MainActivity::class.java)
+            val intent = Intent(applicationContext, OSSLicense::class.java)
             startActivity(intent)
         }
         val butjpb = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button4) as Button
