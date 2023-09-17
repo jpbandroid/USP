@@ -16,7 +16,6 @@ import android.content.Intent
 import android.app.Activity
 import android.net.Uri
 import com.afollestad.materialdialogs.MaterialDialog
-import com.google.android.gms.oss.licenses.OssLicensesMenuActivity
 import com.google.android.material.color.DynamicColors
 import com.jpb.scratchtappy.R
 
@@ -49,7 +48,8 @@ class ScrollingActivity : AppCompatActivity() {
         }
         val butalllicence = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button39) as Button
         butalllicence.setOnClickListener {
-            val intent = Intent(applicationContext, OssLicensesMenuActivity::class.java)
+            //using MainActivity as placeholder here
+            val intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
         }
         val butjpb = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button4) as Button
