@@ -1,4 +1,4 @@
-package com.jpb.appstore.oss.license.ui.theme
+package com.jpb.scratchtappy.oss.license.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,11 +1,11 @@
-package com.jpb.scratchtappy.usp.oss.license.ui.theme
+package com.jpb.scratchtappy.oss.license.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
-import com.jpb.appstore.oss.license.ui.theme.Typography
+import com.jpb.scratchtappy.oss.license.ui.theme.Typography
 
 private val DarkColorPalette = darkColors(
     primary = Purple200,

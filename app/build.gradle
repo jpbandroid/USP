@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-kapt'
     id 'org.jetbrains.kotlin.android'
 }
 apply plugin: 'com.mikepenz.aboutlibraries.plugin'
@@ -33,18 +32,20 @@ android {
     kotlinOptions {
         jvmTarget = '11'
     }
+    buildFeatures {
+        compose = true
+        viewBinding true
+    }
+
     composeOptions {
         kotlinCompilerExtensionVersion compose_version
-    }
-    buildFeatures {
-        viewBinding true
     }
 }
 
 // It is possible to define a custom config path with custom mappings
 aboutLibraries {
     // - if the automatic registered android tasks are disabled, a similar thing can be achieved manually
-    // - `./gradlew app:exportLibraryDefinitions -PexportPath=src/main/res/raw`
+    // - `./gradlew app:exportLibraryDefinitions -PaboutLibraries.exportPath=src/main/res/raw`
     // - the resulting file can for example be added as part of the SCM
     // registerAndroidTasks = false
 
@@ -54,6 +55,8 @@ aboutLibraries {
     offlineMode = false
     // enable fetching of "remote" licenses. Uses the GitHub API
     fetchRemoteLicense = true
+    // (optional) GitHub token to raise API request limit to allow fetching more licenses
+    //gitHubApiToken = getLocalOrGlobalProperty("github.pat")
 
     // Full license text for license IDs mentioned here will be included, even if no detected dependency uses them.
     // additionalLicenses = ["mit", "mpl_2_0"]
@@ -64,10 +67,18 @@ aboutLibraries {
     // Define the strict mode, will fail if the project uses licenses not allowed
     // - This will only automatically fail for Android projects which have `registerAndroidTasks` enabled
     // For non Android projects, execute `exportLibraryDefinitions`
+    strictMode = com.mikepenz.aboutlibraries.plugin.StrictMode.WARN
+    // Allowed set of licenses, this project will be able to use without build failure
+    allowedLicenses = ["Apache-2.0", "asdkl", "mit"]
     // Enable the duplication mode, allows to merge, or link dependencies which relate
     duplicationMode = com.mikepenz.aboutlibraries.plugin.DuplicateMode.LINK
     // Configure the duplication rule, to match "duplicates" with
     duplicationRule = com.mikepenz.aboutlibraries.plugin.DuplicateRule.SIMPLE
+    // Enable pretty printing for the generated JSON file
+    prettyPrint = true
+
+    // Allows to only collect dependencies of specific variants during the `collectDependencies` step.
+    // filterVariants = ["debug"]
 }
 
 
@@ -100,12 +111,12 @@ dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4:1.6.0-alpha05'
     debugImplementation 'androidx.compose.ui:ui-tooling:1.6.0-alpha05'
-    implementation 'com.google.accompanist:accompanist-insets-ui:0.27.0'
-    implementation 'com.google.accompanist:accompanist-systemuicontroller:0.27.0'
-    implementation 'com.mikepenz:aboutlibraries-core:10.5.1'
-    implementation 'com.mikepenz:aboutlibraries-compose:10.5.1'
+    implementation 'com.google.accompanist:accompanist-insets-ui:0.30.1'
+    implementation 'com.google.accompanist:accompanist-systemuicontroller:0.30.1'
+    implementation 'com.mikepenz:aboutlibraries-core:10.8.3'
+    implementation 'com.mikepenz:aboutlibraries-compose:10.8.3'
     implementation 'androidx.activity:activity-compose:1.8.0-beta01'
-    implementation 'androidx.compose.ui:ui:1.6.0-alpha05'
+    implementation 'androidx.compose.ui:ui:1.5.1'
     implementation "androidx.compose.material:material:1.5.1"
-    implementation 'androidx.compose.ui:ui-tooling-preview:1.6.0-alpha05'
+    implementation 'androidx.compose.ui:ui-tooling-preview:1.5.1'
 }

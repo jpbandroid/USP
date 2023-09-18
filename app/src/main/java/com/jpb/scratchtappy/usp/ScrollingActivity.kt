@@ -18,7 +18,7 @@ import android.net.Uri
 import com.afollestad.materialdialogs.MaterialDialog
 import com.google.android.material.color.DynamicColors
 import com.jpb.scratchtappy.R
-import com.jpb.scratchtappy.usp.oss.license.OSSLicense
+import com.jpb.scratchtappy.oss.license.OSSLicense
 
 
 class ScrollingActivity : AppCompatActivity() {
