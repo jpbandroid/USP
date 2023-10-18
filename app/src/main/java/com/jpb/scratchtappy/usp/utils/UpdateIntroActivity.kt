@@ -50,12 +50,12 @@ class UpdateIntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
                 }
 
                 title {
-                    text = "Thanks for installing ST10 v" + BuildConfig.VERSION_NAME + "!"
+                    text = "Thanks for installing ST" + BuildConfig.VERSION_NAME + "!"
                     textColor = color(R.color.white)
                 }
 
                 description {
-                    text = "All the new features and changes in Unified ST Platform " + BuildConfig.VERSION_NAME + "\n" + getString(R.string.changelog)
+                    text = "All the new features and changes in ST" + BuildConfig.VERSION_NAME + "\n" + getString(R.string.changelog)
                     textColor = color(R.color.white)
                     multilineCentered = true
                 }
