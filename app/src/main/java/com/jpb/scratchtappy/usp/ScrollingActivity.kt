@@ -23,8 +23,8 @@ import com.jpb.scratchtappy.oss.license.OSSLicense
 
 class ScrollingActivity : AppCompatActivity() {
     // url for loading in custom chrome tab
-    var url = "https://occoam.com/jpb/"
-    var url2 = "https://www.youtube.com/channel/UCojnty8ChkeDPEXHa56kOoA"
+    var url = "https://jpbandroid.github.io/jpb"
+    var url2 = "https://www.youtube.com/@errortechyt"
 
     private lateinit var binding: ActivityScrollingBinding
 
