@@ -148,11 +148,6 @@ class ScrollingActivity : AppCompatActivity() {
                 icon(R.drawable.ic_baseline_info_24)
             }
         }
-        val butapk = binding.root.findViewById<View>(com.jpb.scratchtappy.R.id.button2) as Button
-        butapk.setOnClickListener {
-            val intent = Intent(applicationContext, APKInfo::class.java)
-            startActivity(intent)
-        }
     }
     fun openCustomTab(activity: Activity, customTabsIntent: CustomTabsIntent, uri: Uri?) {
         // package name is the default package

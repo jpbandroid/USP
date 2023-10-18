@@ -50,17 +50,6 @@
                     android:text="Device Info" />
 
                 <Button
-                    android:id="@+id/button2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="#32DE84"
-                    android:clickable="true"
-                    android:drawableLeft="@drawable/ic_round_perm_device_information_24"
-                    android:focusable="true"
-                    android:text="APK Info"
-                    app:icon="@drawable/ic_baseline_android_24" />
-
-                <Button
                     android:id="@+id/button35"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -244,7 +233,7 @@
                     style="@style/Widget.Material3.Button.TextButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Glide\nversion 4.13.2\nbumptech"
+                    android:text="Glide\nversion 5.0 RC1\nbumptech"
                     android:textAlignment="viewStart"
                     app:iconSize="48dp" />
 
