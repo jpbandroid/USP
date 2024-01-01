@@ -178,6 +178,22 @@ class DeviceInfoActivity : AppCompatActivity() {
             else if (Build.MODEL == "KFQUWI") {
                 deviceName2 = "Fire 7 12th gen (2022)"
             }
+            else if (Build.MODEL == "KFRAWI")
+            {
+                deviceName2 = "Fire HD 8 12th gen (2022)"
+            }
+            else if (Build.MODEL == "KFRAPWI")
+            {
+                deviceName2 = "Fire HD 8 Plus 12th gen (2022)"
+            }
+            else if (Build.MODEL == "KFSNWI")
+            {
+                deviceName2 = "Fire Max 11"
+            }
+            else if (Build.MODEL == "KFTUWI")
+            {
+                deviceName2 = "Fire HD 10 13th gen (2023)"
+            }
             else if (Build.MODEL == "AFTB")
             {
                 deviceName2 = "Fire TV (1st gen)"
@@ -221,6 +237,18 @@ class DeviceInfoActivity : AppCompatActivity() {
             else if (Build.MODEL == "AFTKA")
             {
                 deviceName2 = "Fire TV Stick 4K Max"
+            }
+            else if (Build.MODEL == "AFTGAZL")
+            {
+                deviceName2 = "Fire TV Cube 3"
+            }
+            else if (Build.MODEL == "AFTKM")
+            {
+                deviceName2 = "Fire TV Stick 4K 2"
+            }
+            else if (Build.MODEL == "AFTKRT")
+            {
+                deviceName2 = "Fire TV Stick 4K Max 2"
             }
             else
             {
