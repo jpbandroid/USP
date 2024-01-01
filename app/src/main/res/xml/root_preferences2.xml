@@ -21,7 +21,7 @@
             android:title="Version"
             app:icon="@mipmap/ic_launcher"
             app:key="stmd3"
-            app:summary="ST10"
+            app:summary="ST10.1"
             app:title="Version" />
         <Preference
             android:id="@+id/preference2"
