@@ -4,7 +4,7 @@
     "name": "jpb",
     "organisationUrl": "https://jpbandroid.github.io/jpb"
   }],
-  "artifactVersion": "10",
+  "artifactVersion": "10.1",
   "description": "Fidgeting app inspired by Tappy for iOS.",
   "name": "ScratchTappy",
   "tag": "app",
